@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 
 
 raw_mail_data = pd.read_csv('/Applications/SPAM MAIL/mail_data.csv')
-
+raw_mail_data = pd.read_csv('mail_data.csv')
 #replacing the null vale woth null string
 mail_data= raw_mail_data.where((pd.notnull(raw_mail_data)),'')
 
