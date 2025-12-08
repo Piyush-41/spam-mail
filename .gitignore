@@ -70,7 +70,6 @@ coverage.xml
 .DS_Store
 
 # Data files
-mail_data.csv
 
 # Streamlit cache
 .streamlit/
